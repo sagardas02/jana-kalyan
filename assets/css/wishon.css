@@ -1003,7 +1003,7 @@ ul {
 .main-menu .main-menu__list>li.dropdown>a {
   padding-right: 16px;
 }
-
+/* 
 .main-menu .main-menu__list>li.dropdown>a:after {
   position: absolute;
   top: 50%;
@@ -1015,7 +1015,7 @@ ul {
   transform: translateY(-50%);
   font-weight: 700;
   z-index: 1;
-}
+} */
 
 .main-menu .main-menu__list>li.current>a::after,
 .main-menu .main-menu__list>li:hover>a::after,
@@ -1038,7 +1038,7 @@ ul {
 .stricky-header .main-menu__list>li>ul>li>ul {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 0px;
   min-width: 250px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1120,7 +1120,7 @@ ul {
 .main-menu .main-menu__list>li>ul>li>ul>li:hover>a,
 .stricky-header .main-menu__list>li>ul>li:hover>a,
 .stricky-header .main-menu__list>li>ul>li>ul>li:hover>a {
-  background-color: var(--wishon-base);
+  background-color: #cd4b00;
   color: var(--wishon-white);
 }
 
@@ -2205,10 +2205,10 @@ ul {
 }
 
 .main-menu-four .main-menu__list>li.dropdown>a {
-  padding-right: 16px;
+  padding-right: 0px;
 }
 
-.main-menu-four .main-menu__list>li.dropdown>a:after {
+/* .main-menu-four .main-menu__list>li.dropdown>a:after {
   position: absolute;
   top: 50%;
   right: 0;
@@ -2219,7 +2219,7 @@ ul {
   transform: translateY(-50%);
   font-weight: 700;
   z-index: 1;
-}
+} */
 
 .main-menu-four .main-menu__list>li.current>a::after,
 .main-menu-four .main-menu__list>li:hover>a::after,
@@ -2943,6 +2943,7 @@ ul {
 .main-slider-four {
   position: relative;
   display: block;
+  z-index: 0;
 }
 
 .main-slider-four .swiper-slide {
@@ -11005,7 +11006,7 @@ ul {
 .about-three {
   position: relative;
   display: block;
-  padding: 60px 0 120px;
+  padding: 60px 0 60px;
   z-index: 1;
 }
 
@@ -11469,7 +11470,7 @@ ul {
 .contact-page-form {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 40px 0 40px;
 }
 
 .contact-page-form .container {
@@ -11524,6 +11525,7 @@ ul {
   margin-bottom: 0px;
   font-weight: 400;
   border-radius: 10px;
+  resize: none;
 }
 
 .contact-page-form__input-box.text-message-box {
@@ -11533,7 +11535,7 @@ ul {
 .contact-page-form__btn {
   display: block;
   border: none;
-  background-color: var(--wishon-base);
+  background-color: #cd4b00;
   margin: 0 auto;
 }
 
@@ -11595,9 +11597,9 @@ ul {
 
 .contact-form form{
   /* margin: 20px 20px 20px 20px; */
-  width: 866px;
+  width: 770px;
   margin: 20px auto;
-  padding: 14px 24px;
+  padding: 14px 30px;
   box-shadow: 2px 3px 4px #00000085;
   border-radius: 15px;
   background-color: white;
@@ -11610,10 +11612,12 @@ ul {
 
 .input-field{
   position: relative;
+  height: 87px;
+  margin: 0px 0px;
 }
 .input-field input{
    width: 100%;
-   height: 60px;
+   height: 50px;
    border-radius: 1px;
    font-size: 18px;
    padding: 0 15px;
@@ -11621,7 +11625,7 @@ ul {
    background: transparent;
    color: #000000;
    outline: none;
-   margin: 22px 10px;
+   margin: 0px 10px;
    cursor: pointer;
    box-shadow: 0px 1px 0px grey;
    border-top-style: none;
@@ -11630,7 +11634,7 @@ ul {
 }
 .select-field select{
   width: 100%;
-  height: 60px;
+  height: 50px;
   border-radius: 1px;
   font-size: 18px;
   padding: 0 15px;
@@ -11638,7 +11642,7 @@ ul {
   background: transparent;
   color: #000000;
   outline: none;
-  margin: 22px 10px;
+  margin: 0px 10px;
   cursor: pointer;
   box-shadow: 0px 1px 0px grey;
   border-top-style: none;
@@ -11654,6 +11658,7 @@ ul {
   /* color: #fff; */
   font-size: 17px;
   transition: 0.3s;
+  background-color: white;
 }
 input:focus{
   border: 2px solid #cd4b00;
@@ -11663,11 +11668,11 @@ input:focus{
 input:focus ~ label,
 input:valid ~ label{
   position:relative;
-  top: -75%;
-  left: 15px;
+  top: -57%;
+  left: 18px;
   font-size: 16px;
   padding: 0 2px;
-  background: transparent;
+  background: #ffffff;
 }
 
 .select-field label{
@@ -11686,8 +11691,8 @@ select:focus{
 }
 select:focus ~ label{
   position:relative;
-  top: -75%;
-  left: 15px;
+  top: -57%;
+  left: 18px;
   font-size: 16px;
   padding: 0 2px;
   background: transparent;
@@ -11734,4 +11739,22 @@ input[type=number] {
   bottom: 373px;
   z-index: -1;
   filter: blur(10px) grayscale(1) saturate(2.5);
+}
+
+.reg-btn{
+    padding: 8px 17px !important;
+    border: none;
+    background: #cd4b00;
+}
+
+.reg-btn:hover{
+  background-color: #ac4002;
+  
+}
+
+.reg-btn>a{
+  color: white !important;
+  font-size: 19px !important;
+  font-weight: 400 !important;
+  cursor: pointer;
 }

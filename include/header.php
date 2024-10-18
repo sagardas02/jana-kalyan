@@ -2,8 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from layerdrops.com/wishon/index4.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Feb 2023 09:31:31 GMT -->
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +11,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_io/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.html" />
-    <meta name="description" content="wishon HTML 5 Template " />
+    <meta name="description" content="Jana Kalyan Swasta Sewa" />
 
-    <!-- fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com/">
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -49,7 +47,6 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
 
-    <!-- template styles -->
     <link rel="stylesheet" href="assets/css/wishon.css" />
     <link rel="stylesheet" href="assets/css/wishon-responsive.css" />
 
@@ -135,11 +132,15 @@
                                         <li>
                                             <a href="services.php">Services</a>
                                         </li>
-                                        <!-- <li>
-                                            <a href="#">Gallery</a>
-                                        </li> -->
                                         <li>
                                             <a href="contact.php">Contact</a>
+                                        </li>
+                                        <li class="dropdown reg-btn">
+                                            <a>Registration</a>
+                                            <ul>
+                                                <li><a href="doctor-registration.php">Doctor Registration</a></li>
+                                                <li><a href="pharma-registration.php">Pharmasist Registration</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
 
