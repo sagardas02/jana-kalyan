@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__links">
                         <div class="footer-widget__title-box">
                             <h4 class="footer-widget__title">Links</h4>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="300ms">
                     <div class="footer-widget__non-profit">
                         <div class="footer-widget__title-box">
                             <h4 class="footer-widget__title">Social Media</h4>
@@ -38,7 +38,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-xl-4 col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="300ms">
                     <div class="footer-widget__contact">
                         <div class="footer-widget__title-box">
                             <h4 class="footer-widget__title">Contact</h4>
@@ -193,10 +193,10 @@ $(document).ready(function() {
         items: 3, // Display 3 items at a time
         loop: true, // Enable looping
         margin: 10, // Space between items
-        nav: true, // Show next/prev buttons
+        nav: false, // Show next/prev buttons
         autoplay: true, // Enable autoplay
         autoplayTimeout: 3000, // 3-second autoplay interval
-        dots: true, // Show dots for navigation
+        dots: false, // Show dots for navigation
         responsive: {
             0: {
                 items: 1 // Display 1 item on small screens
